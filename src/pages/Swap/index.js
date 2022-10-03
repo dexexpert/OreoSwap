@@ -343,7 +343,7 @@ const Swap = () => {
                   )
                 );
               }}
-              value={selectedTokenInfo.A.amount}
+              // value={selectedTokenInfo.A.amount}
             />
             <div className="balance_text_swap">
               <span className="balance">Balance:</span>
