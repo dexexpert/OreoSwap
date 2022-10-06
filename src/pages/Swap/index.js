@@ -27,14 +27,20 @@ const Swap = () => {
       address: "0x7bf88d2c0e32de92cdaf2d43ccdc23e8edfd5990",
     },
     {
+      chainName: "DogeW",
+      chainIcon: "/coin/dogepow.png",
+      coinIcon: "/coin/dogepow.png",
+      address: "0x178582531538E781d20E0CdFcE9F4E548B3E7e2B",
+    },
+    {
       chainName: "Import",
       chainIcon: "/coin/unkhown.png",
       coinIcon: "/coin/plus.svg",
     },
   ];
   const weth_add = "0x7bf88d2c0e32de92cdaf2d43ccdc23e8edfd5990";
-  const router_add = "0x5B5409dC681d28fF023d63D32a45680E8512D62e";
-  const factory_add = "0x7159a5d1F3917331a38817F9d1f02bd8A909BCA9";
+  const router_add = "0x871D150D470280fDED9925e747d67ddeF1AacAd6";
+  const factory_add = "0x77d9BA49D1A3Cf210F49Bf12082D7481f4653869";
 
   const [transferStatus, setTransferStatus] = useState(false);
   const [open, setOpen] = useState(false);

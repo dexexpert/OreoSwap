@@ -25,6 +25,12 @@ const Liquidity = () => {
       address: "0x7bf88d2c0e32de92cdaf2d43ccdc23e8edfd5990",
     },
     {
+      chainName: "DogeW",
+      chainIcon: "/coin/dogepow.png",
+      coinIcon: "/coin/dogepow.png",
+      address: "0x178582531538E781d20E0CdFcE9F4E548B3E7e2B",
+    },
+    {
       chainName: "Import",
       chainIcon: "/coin/plus.svg",
       coinIcon: "/coin/plus.svg",
@@ -55,7 +61,7 @@ const Liquidity = () => {
     setHelp(!help);
   };
   const provider = new ethers.providers.Web3Provider(window.ethereum);
-  const router_add = "0x5B5409dC681d28fF023d63D32a45680E8512D62e";
+  const router_add = "0x871D150D470280fDED9925e747d67ddeF1AacAd6";
 
   const add_liquidity_handler = async () => {
     let tokenNameA,
