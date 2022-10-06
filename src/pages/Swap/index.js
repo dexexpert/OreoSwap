@@ -28,8 +28,8 @@ const Swap = () => {
     },
     {
       chainName: "DogeW",
-      chainIcon: "/coin/dogepow.png",
-      coinIcon: "/coin/dogepow.png",
+      chainIcon: "/coin/dogepow.jpg",
+      coinIcon: "/coin/dogepow.jpg",
       address: "0x178582531538E781d20E0CdFcE9F4E548B3E7e2B",
     },
     {
