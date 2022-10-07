@@ -61,7 +61,7 @@ const Liquidity = () => {
     setHelp(!help);
   };
   const provider = new ethers.providers.Web3Provider(window.ethereum);
-  const router_add = "0x871D150D470280fDED9925e747d67ddeF1AacAd6";
+  const router_add = "0x270340334f9D2F84A9f5cef667147A8cEcdC0F30";
 
   const add_liquidity_handler = async () => {
     let tokenNameA,
@@ -298,6 +298,12 @@ const Liquidity = () => {
                         console.log(tx);
                       });
                     } else {
+                      console.log(
+                        "B value : ",
+                        ethers.BigNumber.from(tokenValue.B).mul(
+                          ethers.BigNumber.from(10).pow(tokenInfo.B.decimal)
+                        )
+                      );
                       let tx = await router.addLiquidityETH(
                         tokenInfo.B.address,
                         ethers.BigNumber.from(tokenValue.B).mul(

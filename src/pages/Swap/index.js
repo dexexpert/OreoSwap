@@ -39,7 +39,7 @@ const Swap = () => {
     },
   ];
   const weth_add = "0x7bf88d2c0e32de92cdaf2d43ccdc23e8edfd5990";
-  const router_add = "0x871D150D470280fDED9925e747d67ddeF1AacAd6";
+  const router_add = "0x270340334f9D2F84A9f5cef667147A8cEcdC0F30";
   const factory_add = "0x77d9BA49D1A3Cf210F49Bf12082D7481f4653869";
 
   const [transferStatus, setTransferStatus] = useState(false);
